@@ -1,0 +1,10 @@
+<div class="todo">Todo List Call api</div>
+<div class="columns is-mobile">
+    <div class="column is-3"></div>
+    <ul>
+        <!-- todo เดียวมาจากหลายอัน -->
+        <li *ngFor="let todo of todoList;">{{todo.id}}, {{todo.title}}
+      
+        </li>
+      </ul>
+  </div>
